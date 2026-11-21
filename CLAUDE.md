@@ -66,7 +66,7 @@ Raw data, model weights and cached model outputs live under `data/` and `.cache/
 
 ## Engineering conventions
 
-- Python 3.11 or newer, `src/` layout, installed in editable mode into `.venv` with `pip install -e ".[dev]"`.
+- Python 3.11 or newer, `src/` layout. Environments are managed with uv: `make setup` creates `.venv` with a uv-managed Python 3.12 (`uv venv --python 3.12 --managed-python`) and installs the package with `uv pip install -e ".[dev]"`. Do not use pip or the MSYS2 Python directly. Make targets call `.venv`'s Python, so no activation is needed.
 - ruff for linting and formatting. Type hints on public functions. NumPy-style docstrings.
 - pytest for tests. CI runs lint and tests on every push and must pass on CPU with small models.
 - Every random process takes an explicit seed. Experiment settings live in YAML configs, with no hard-coded paths or magic numbers in analysis code.

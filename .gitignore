@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+
+# Data, model weights and cached model outputs (never committed)
+data/
+.cache/
+
+# Python build and tool artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets and local settings
+.env
+.claude/settings.local.json
