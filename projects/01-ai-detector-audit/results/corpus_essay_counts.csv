@@ -1,0 +1,365 @@
+corpus,split,prompt,grade,ell_status,disability_status,n_essays
+ellipse,test,Afterschool homework club,8,Yes,Not recorded,41
+ellipse,test,Being busy,9,Yes,Not recorded,<11
+ellipse,test,Being busy,10,Yes,Not recorded,14
+ellipse,test,Being busy,11,Yes,Not recorded,97
+ellipse,test,Being busy,12,Yes,Not recorded,19
+ellipse,test,Benefits of a good attitude,8,Yes,Not recorded,suppressed
+ellipse,test,Benefits of a problem,8,Yes,Not recorded,27
+ellipse,test,Career commitment,8,Yes,Not recorded,22
+ellipse,test,Career commitment,10,Yes,Not recorded,11
+ellipse,test,Career commitment,11,Yes,Not recorded,97
+ellipse,test,Career commitment,12,Yes,Not recorded,<11
+ellipse,test,Cell phones at school,8,Yes,Not recorded,42
+ellipse,test,Cell phones in classrooms,10,Yes,Not recorded,<11
+ellipse,test,Cell phones in classrooms,11,Yes,Not recorded,11
+ellipse,test,Cell phones in classrooms,12,Yes,Not recorded,26
+ellipse,test,Community service,8,Yes,Not recorded,35
+ellipse,test,Controlling extracurricular involvement,10,Yes,Not recorded,<11
+ellipse,test,Controlling extracurricular involvement,11,Yes,Not recorded,28
+ellipse,test,Controlling extracurricular involvement,12,Yes,Not recorded,<11
+ellipse,test,Creative arts requirement,10,Yes,Not recorded,<11
+ellipse,test,Creative arts requirement,11,Yes,Not recorded,<11
+ellipse,test,Creative arts requirement,12,Yes,Not recorded,36
+ellipse,test,Curfews for teenagers,10,Yes,Not recorded,<11
+ellipse,test,Curfews for teenagers,11,Yes,Not recorded,33
+ellipse,test,Curfews for teenagers,12,Yes,Not recorded,<11
+ellipse,test,Distance learning,9,Yes,Not recorded,<11
+ellipse,test,Distance learning,10,Yes,Not recorded,<11
+ellipse,test,Distance learning,11,Yes,Not recorded,54
+ellipse,test,Distance learning,12,Yes,Not recorded,132
+ellipse,test,Enjoyable educational activities,8,Yes,Not recorded,33
+ellipse,test,Extended school day,8,Yes,Not recorded,63
+ellipse,test,First impressions,10,Yes,Not recorded,<11
+ellipse,test,First impressions,11,Yes,Not recorded,18
+ellipse,test,First impressions,12,Yes,Not recorded,75
+ellipse,test,Four-day work week,10,Yes,Not recorded,<11
+ellipse,test,Four-day work week,11,Yes,Not recorded,<11
+ellipse,test,Four-day work week,12,Yes,Not recorded,79
+ellipse,test,Future accomplishments,8,Yes,Not recorded,22
+ellipse,test,Grades for extracurricular activities,8,Yes,Not recorded,39
+ellipse,test,Honesty,8,Yes,Not recorded,25
+ellipse,test,Imagination,8,Yes,Not recorded,26
+ellipse,test,Impact of technology,9,Yes,Not recorded,<11
+ellipse,test,Impact of technology,10,Yes,Not recorded,12
+ellipse,test,Impact of technology,11,Yes,Not recorded,86
+ellipse,test,Impact of technology,12,Yes,Not recorded,26
+ellipse,test,Individuality,10,Yes,Not recorded,<11
+ellipse,test,Individuality,11,Yes,Not recorded,17
+ellipse,test,Individuality,12,Yes,Not recorded,88
+ellipse,test,Influences of character,10,Yes,Not recorded,<11
+ellipse,test,Influences of character,11,Yes,Not recorded,55
+ellipse,test,Influences of character,12,Yes,Not recorded,<11
+ellipse,test,Influencing behavior,10,Yes,Not recorded,<11
+ellipse,test,Influencing behavior,11,Yes,Not recorded,24
+ellipse,test,Influencing behavior,12,Yes,Not recorded,<11
+ellipse,test,Internships and shadowing,10,Yes,Not recorded,<11
+ellipse,test,Internships and shadowing,11,Yes,Not recorded,29
+ellipse,test,Internships and shadowing,12,Yes,Not recorded,<11
+ellipse,test,Learning from the experience of others,8,Yes,Not recorded,21
+ellipse,test,Lessons with elementary school students,8,Yes,Not recorded,25
+ellipse,test,Letter to employer,8,Yes,Not recorded,25
+ellipse,test,Lunch menus,8,Yes,Not recorded,26
+ellipse,test,Lunch menus,10,Yes,Not recorded,<11
+ellipse,test,Lunch menus,11,Yes,Not recorded,31
+ellipse,test,Lunch menus,12,Yes,Not recorded,<11
+ellipse,test,Mandatory extracurricular activities,8,Yes,Not recorded,45
+ellipse,test,Places to visit,8,Yes,Not recorded,36
+ellipse,test,Positive attitudes,10,Yes,Not recorded,<11
+ellipse,test,Positive attitudes,11,Yes,Not recorded,<11
+ellipse,test,Positive attitudes,12,Yes,Not recorded,91
+ellipse,test,Praising student work,10,Yes,Not recorded,<11
+ellipse,test,Praising student work,11,Yes,Not recorded,30
+ellipse,test,Seeking multiple opinions,8,Yes,Not recorded,<11
+ellipse,test,Self-reliance,9,Yes,Not recorded,<11
+ellipse,test,Self-reliance,10,Yes,Not recorded,<11
+ellipse,test,Self-reliance,11,Yes,Not recorded,52
+ellipse,test,Self-reliance,12,Yes,Not recorded,29
+ellipse,test,Setting our aim,10,Yes,Not recorded,<11
+ellipse,test,Setting our aim,11,Yes,Not recorded,14
+ellipse,test,Setting our aim,12,Yes,Not recorded,<11
+ellipse,test,Spending time outdoors,8,Yes,Not recorded,37
+ellipse,test,Success and failure,10,Yes,Not recorded,<11
+ellipse,test,Success and failure,11,Yes,Not recorded,35
+ellipse,test,Success and failure,12,Yes,Not recorded,120
+ellipse,test,Summer projects,10,Yes,Not recorded,<11
+ellipse,test,Summer projects,11,Yes,Not recorded,17
+ellipse,test,Summer projects,12,Yes,Not recorded,<11
+ellipse,test,Talents and skills,8,Yes,Not recorded,18
+ellipse,test,Three-year high school program,10,Yes,Not recorded,<11
+ellipse,test,Three-year high school program,11,Yes,Not recorded,19
+ellipse,test,Three-year high school program,12,Yes,Not recorded,98
+ellipse,test,Trying something beyond what you have mastered,8,Yes,Not recorded,25
+ellipse,test,Trying something beyond what you have mastered,10,Yes,Not recorded,<11
+ellipse,test,Trying something beyond what you have mastered,11,Yes,Not recorded,59
+ellipse,test,Trying something beyond what you have mastered,12,Yes,Not recorded,16
+ellipse,test,Working with a group or alone,9,Yes,Not recorded,<11
+ellipse,test,Working with a group or alone,10,Yes,Not recorded,<11
+ellipse,test,Working with a group or alone,11,Yes,Not recorded,49
+ellipse,test,Working with a group or alone,12,Yes,Not recorded,27
+ellipse,test,Year-round school,10,Yes,Not recorded,<11
+ellipse,test,Year-round school,11,Yes,Not recorded,28
+ellipse,test,Year-round school,12,Yes,Not recorded,<11
+ellipse,train,Afterschool homework club,8,Yes,Not recorded,56
+ellipse,train,Being busy,9,Yes,Not recorded,<11
+ellipse,train,Being busy,10,Yes,Not recorded,31
+ellipse,train,Being busy,11,Yes,Not recorded,141
+ellipse,train,Being busy,12,Yes,Not recorded,36
+ellipse,train,Benefits of a good attitude,8,Yes,Not recorded,suppressed
+ellipse,train,Benefits of a problem,8,Yes,Not recorded,33
+ellipse,train,Career commitment,8,Yes,Not recorded,55
+ellipse,train,Career commitment,9,Yes,Not recorded,<11
+ellipse,train,Career commitment,10,Yes,Not recorded,14
+ellipse,train,Career commitment,11,Yes,Not recorded,144
+ellipse,train,Career commitment,12,Yes,Not recorded,11
+ellipse,train,Cell phones at school,8,Yes,Not recorded,43
+ellipse,train,Cell phones in classrooms,9,Yes,Not recorded,<11
+ellipse,train,Cell phones in classrooms,10,Yes,Not recorded,<11
+ellipse,train,Cell phones in classrooms,11,Yes,Not recorded,<11
+ellipse,train,Cell phones in classrooms,12,Yes,Not recorded,47
+ellipse,train,Community service,8,Yes,Not recorded,48
+ellipse,train,Controlling extracurricular involvement,9,Yes,Not recorded,<11
+ellipse,train,Controlling extracurricular involvement,10,Yes,Not recorded,<11
+ellipse,train,Controlling extracurricular involvement,11,Yes,Not recorded,46
+ellipse,train,Controlling extracurricular involvement,12,Yes,Not recorded,<11
+ellipse,train,Creative arts requirement,9,Yes,Not recorded,<11
+ellipse,train,Creative arts requirement,11,Yes,Not recorded,<11
+ellipse,train,Creative arts requirement,12,Yes,Not recorded,40
+ellipse,train,Curfews for teenagers,10,Yes,Not recorded,<11
+ellipse,train,Curfews for teenagers,11,Yes,Not recorded,42
+ellipse,train,Curfews for teenagers,12,Yes,Not recorded,<11
+ellipse,train,Distance learning,9,Yes,Not recorded,<11
+ellipse,train,Distance learning,10,Yes,Not recorded,<11
+ellipse,train,Distance learning,11,Yes,Not recorded,115
+ellipse,train,Distance learning,12,Yes,Not recorded,171
+ellipse,train,Enjoyable educational activities,8,Yes,Not recorded,58
+ellipse,train,Extended school day,8,Yes,Not recorded,90
+ellipse,train,First impressions,9,Yes,Not recorded,<11
+ellipse,train,First impressions,10,Yes,Not recorded,<11
+ellipse,train,First impressions,11,Yes,Not recorded,36
+ellipse,train,First impressions,12,Yes,Not recorded,131
+ellipse,train,Four-day work week,9,Yes,Not recorded,<11
+ellipse,train,Four-day work week,10,Yes,Not recorded,<11
+ellipse,train,Four-day work week,11,Yes,Not recorded,17
+ellipse,train,Four-day work week,12,Yes,Not recorded,117
+ellipse,train,Future accomplishments,8,Yes,Not recorded,35
+ellipse,train,Grades for extracurricular activities,8,Yes,Not recorded,37
+ellipse,train,Honesty,8,Yes,Not recorded,29
+ellipse,train,Imagination,8,Yes,Not recorded,55
+ellipse,train,Impact of technology,9,Yes,Not recorded,<11
+ellipse,train,Impact of technology,10,Yes,Not recorded,25
+ellipse,train,Impact of technology,11,Yes,Not recorded,110
+ellipse,train,Impact of technology,12,Yes,Not recorded,38
+ellipse,train,Individuality,10,Yes,Not recorded,<11
+ellipse,train,Individuality,11,Yes,Not recorded,16
+ellipse,train,Individuality,12,Yes,Not recorded,129
+ellipse,train,Influences of character,10,Yes,Not recorded,<11
+ellipse,train,Influences of character,11,Yes,Not recorded,75
+ellipse,train,Influences of character,12,Yes,Not recorded,<11
+ellipse,train,Influencing behavior,9,Yes,Not recorded,<11
+ellipse,train,Influencing behavior,10,Yes,Not recorded,<11
+ellipse,train,Influencing behavior,11,Yes,Not recorded,51
+ellipse,train,Influencing behavior,12,Yes,Not recorded,<11
+ellipse,train,Internships and shadowing,9,Yes,Not recorded,<11
+ellipse,train,Internships and shadowing,10,Yes,Not recorded,15
+ellipse,train,Internships and shadowing,11,Yes,Not recorded,41
+ellipse,train,Internships and shadowing,12,Yes,Not recorded,<11
+ellipse,train,Learning from the experience of others,8,Yes,Not recorded,30
+ellipse,train,Lessons with elementary school students,8,Yes,Not recorded,38
+ellipse,train,Letter to employer,8,Yes,Not recorded,45
+ellipse,train,Lunch menus,8,Yes,Not recorded,32
+ellipse,train,Lunch menus,10,Yes,Not recorded,<11
+ellipse,train,Lunch menus,11,Yes,Not recorded,49
+ellipse,train,Lunch menus,12,Yes,Not recorded,<11
+ellipse,train,Mandatory extracurricular activities,8,Yes,Not recorded,42
+ellipse,train,Places to visit,8,Yes,Not recorded,48
+ellipse,train,Positive attitudes,9,Yes,Not recorded,<11
+ellipse,train,Positive attitudes,10,Yes,Not recorded,<11
+ellipse,train,Positive attitudes,11,Yes,Not recorded,24
+ellipse,train,Positive attitudes,12,Yes,Not recorded,148
+ellipse,train,Praising student work,9,Yes,Not recorded,<11
+ellipse,train,Praising student work,10,Yes,Not recorded,<11
+ellipse,train,Praising student work,11,Yes,Not recorded,48
+ellipse,train,Praising student work,12,Yes,Not recorded,<11
+ellipse,train,Seeking multiple opinions,8,Yes,Not recorded,suppressed
+ellipse,train,Self-reliance,9,Yes,Not recorded,<11
+ellipse,train,Self-reliance,10,Yes,Not recorded,13
+ellipse,train,Self-reliance,11,Yes,Not recorded,79
+ellipse,train,Self-reliance,12,Yes,Not recorded,38
+ellipse,train,Setting our aim,9,Yes,Not recorded,<11
+ellipse,train,Setting our aim,11,Yes,Not recorded,25
+ellipse,train,Setting our aim,12,Yes,Not recorded,<11
+ellipse,train,Spending time outdoors,8,Yes,Not recorded,54
+ellipse,train,Success and failure,9,Yes,Not recorded,<11
+ellipse,train,Success and failure,10,Yes,Not recorded,<11
+ellipse,train,Success and failure,11,Yes,Not recorded,61
+ellipse,train,Success and failure,12,Yes,Not recorded,151
+ellipse,train,Summer projects,10,Yes,Not recorded,<11
+ellipse,train,Summer projects,11,Yes,Not recorded,18
+ellipse,train,Talents and skills,8,Yes,Not recorded,43
+ellipse,train,Three-year high school program,9,Yes,Not recorded,<11
+ellipse,train,Three-year high school program,10,Yes,Not recorded,<11
+ellipse,train,Three-year high school program,11,Yes,Not recorded,19
+ellipse,train,Three-year high school program,12,Yes,Not recorded,132
+ellipse,train,Trying something beyond what you have mastered,8,Yes,Not recorded,23
+ellipse,train,Trying something beyond what you have mastered,9,Yes,Not recorded,<11
+ellipse,train,Trying something beyond what you have mastered,10,Yes,Not recorded,21
+ellipse,train,Trying something beyond what you have mastered,11,Yes,Not recorded,84
+ellipse,train,Trying something beyond what you have mastered,12,Yes,Not recorded,43
+ellipse,train,Working with a group or alone,9,Yes,Not recorded,<11
+ellipse,train,Working with a group or alone,10,Yes,Not recorded,19
+ellipse,train,Working with a group or alone,11,Yes,Not recorded,70
+ellipse,train,Working with a group or alone,12,Yes,Not recorded,44
+ellipse,train,Year-round school,10,Yes,Not recorded,17
+ellipse,train,Year-round school,11,Yes,Not recorded,46
+ellipse,train,Year-round school,12,Yes,Not recorded,<11
+persuade_2_0,test,"""A Cowboy Who Rode the Waves""",6,No,No,641
+persuade_2_0,test,"""A Cowboy Who Rode the Waves""",6,No,Yes,28
+persuade_2_0,test,"""A Cowboy Who Rode the Waves""",6,Yes,No,13
+persuade_2_0,test,"""A Cowboy Who Rode the Waves""",6,Yes,Yes,<11
+persuade_2_0,test,"""A Cowboy Who Rode the Waves""",6,Missing,Yes,<11
+persuade_2_0,test,Car-free cities,10,No,Missing,944
+persuade_2_0,test,Car-free cities,10,Yes,Missing,32
+persuade_2_0,test,Cell phones at school,8,No,No,731
+persuade_2_0,test,Cell phones at school,8,No,Yes,61
+persuade_2_0,test,Cell phones at school,8,Yes,No,30
+persuade_2_0,test,Cell phones at school,8,Yes,Yes,<11
+persuade_2_0,test,Community service,8,No,No,693
+persuade_2_0,test,Community service,8,No,Yes,48
+persuade_2_0,test,Community service,8,Yes,No,28
+persuade_2_0,test,Community service,8,Yes,Yes,<11
+persuade_2_0,test,Distance learning,9,No,No,<11
+persuade_2_0,test,Distance learning,9,Yes,No,<11
+persuade_2_0,test,Distance learning,10,No,No,35
+persuade_2_0,test,Distance learning,10,No,Yes,<11
+persuade_2_0,test,Distance learning,10,Yes,No,<11
+persuade_2_0,test,Distance learning,10,Yes,Yes,<11
+persuade_2_0,test,Distance learning,11,No,No,330
+persuade_2_0,test,Distance learning,11,No,Yes,53
+persuade_2_0,test,Distance learning,11,Yes,No,53
+persuade_2_0,test,Distance learning,11,Yes,Yes,13
+persuade_2_0,test,Distance learning,12,No,No,<11
+persuade_2_0,test,Distance learning,12,No,Yes,<11
+persuade_2_0,test,Distance learning,12,Yes,No,127
+persuade_2_0,test,Distance learning,12,Yes,Yes,24
+persuade_2_0,test,Does the electoral college work?,9,No,Missing,228
+persuade_2_0,test,Driverless cars,10,No,No,465
+persuade_2_0,test,Driverless cars,10,No,Yes,21
+persuade_2_0,test,Driverless cars,10,Yes,No,<11
+persuade_2_0,test,Driverless cars,10,Missing,No,11
+persuade_2_0,test,Exploring Venus,10,No,No,486
+persuade_2_0,test,Exploring Venus,10,No,Yes,238
+persuade_2_0,test,Exploring Venus,10,Yes,No,172
+persuade_2_0,test,Exploring Venus,10,Yes,Yes,35
+persuade_2_0,test,Exploring Venus,10,Missing,No,<11
+persuade_2_0,test,Exploring Venus,10,Missing,Yes,<11
+persuade_2_0,test,Facial action coding system,10,No,No,526
+persuade_2_0,test,Facial action coding system,10,No,Yes,292
+persuade_2_0,test,Facial action coding system,10,Yes,No,193
+persuade_2_0,test,Facial action coding system,10,Yes,Yes,36
+persuade_2_0,test,Facial action coding system,10,Missing,No,<11
+persuade_2_0,test,Facial action coding system,10,Missing,Yes,<11
+persuade_2_0,test,Grades for extracurricular activities,8,No,No,733
+persuade_2_0,test,Grades for extracurricular activities,8,No,Yes,43
+persuade_2_0,test,Grades for extracurricular activities,8,Yes,No,32
+persuade_2_0,test,Grades for extracurricular activities,8,Yes,Yes,<11
+persuade_2_0,test,Mandatory extracurricular activities,8,No,No,653
+persuade_2_0,test,Mandatory extracurricular activities,8,No,Yes,119
+persuade_2_0,test,Mandatory extracurricular activities,8,Yes,No,43
+persuade_2_0,test,Mandatory extracurricular activities,8,Yes,Yes,16
+persuade_2_0,test,Phones and driving,Missing,Missing,Missing,467
+persuade_2_0,test,Seeking multiple opinions,8,No,No,<11
+persuade_2_0,test,Seeking multiple opinions,8,Yes,No,<11
+persuade_2_0,test,Summer projects,9,No,No,<11
+persuade_2_0,test,Summer projects,9,No,Yes,<11
+persuade_2_0,test,Summer projects,10,No,No,85
+persuade_2_0,test,Summer projects,10,No,Yes,11
+persuade_2_0,test,Summer projects,10,Yes,No,<11
+persuade_2_0,test,Summer projects,11,No,No,680
+persuade_2_0,test,Summer projects,11,No,Yes,66
+persuade_2_0,test,Summer projects,11,Yes,No,20
+persuade_2_0,test,Summer projects,11,Yes,Yes,<11
+persuade_2_0,test,Summer projects,12,No,Yes,<11
+persuade_2_0,test,Summer projects,12,Yes,No,<11
+persuade_2_0,test,The Face on Mars,8,No,No,726
+persuade_2_0,test,The Face on Mars,8,No,Yes,23
+persuade_2_0,test,The Face on Mars,8,Yes,No,<11
+persuade_2_0,test,The Face on Mars,8,Missing,No,<11
+persuade_2_0,train,"""A Cowboy Who Rode the Waves""",6,No,No,629
+persuade_2_0,train,"""A Cowboy Who Rode the Waves""",6,No,Yes,40
+persuade_2_0,train,"""A Cowboy Who Rode the Waves""",6,Yes,No,13
+persuade_2_0,train,"""A Cowboy Who Rode the Waves""",6,Yes,Yes,<11
+persuade_2_0,train,"""A Cowboy Who Rode the Waves""",6,Missing,No,<11
+persuade_2_0,train,Car-free cities,10,No,Missing,948
+persuade_2_0,train,Car-free cities,10,Yes,Missing,35
+persuade_2_0,train,Cell phones at school,8,No,No,732
+persuade_2_0,train,Cell phones at school,8,No,Yes,63
+persuade_2_0,train,Cell phones at school,8,Yes,No,31
+persuade_2_0,train,Cell phones at school,8,Yes,Yes,<11
+persuade_2_0,train,Community service,8,No,No,696
+persuade_2_0,train,Community service,8,No,Yes,40
+persuade_2_0,train,Community service,8,Yes,No,28
+persuade_2_0,train,Community service,8,Yes,Yes,<11
+persuade_2_0,train,Distance learning,9,No,No,<11
+persuade_2_0,train,Distance learning,9,No,Yes,<11
+persuade_2_0,train,Distance learning,9,Yes,No,<11
+persuade_2_0,train,Distance learning,10,No,No,112
+persuade_2_0,train,Distance learning,10,No,Yes,19
+persuade_2_0,train,Distance learning,10,Yes,No,<11
+persuade_2_0,train,Distance learning,10,Yes,Yes,<11
+persuade_2_0,train,Distance learning,11,No,No,846
+persuade_2_0,train,Distance learning,11,No,Yes,128
+persuade_2_0,train,Distance learning,11,Yes,No,100
+persuade_2_0,train,Distance learning,11,Yes,Yes,33
+persuade_2_0,train,Distance learning,12,No,No,<11
+persuade_2_0,train,Distance learning,12,No,Yes,<11
+persuade_2_0,train,Distance learning,12,Yes,No,189
+persuade_2_0,train,Distance learning,12,Yes,Yes,39
+persuade_2_0,train,Does the electoral college work?,9,No,Missing,1747
+persuade_2_0,train,Does the electoral college work?,9,Yes,Missing,71
+persuade_2_0,train,Driverless cars,10,No,No,1205
+persuade_2_0,train,Driverless cars,10,No,Yes,57
+persuade_2_0,train,Driverless cars,10,Yes,No,55
+persuade_2_0,train,Driverless cars,10,Yes,Yes,<11
+persuade_2_0,train,Driverless cars,10,Missing,No,65
+persuade_2_0,train,Driverless cars,10,Missing,Yes,<11
+persuade_2_0,train,Exploring Venus,10,No,No,487
+persuade_2_0,train,Exploring Venus,10,No,Yes,234
+persuade_2_0,train,Exploring Venus,10,Yes,No,163
+persuade_2_0,train,Exploring Venus,10,Yes,Yes,41
+persuade_2_0,train,Exploring Venus,10,Missing,No,<11
+persuade_2_0,train,Exploring Venus,10,Missing,Yes,<11
+persuade_2_0,train,Facial action coding system,10,No,No,521
+persuade_2_0,train,Facial action coding system,10,No,Yes,298
+persuade_2_0,train,Facial action coding system,10,Yes,No,224
+persuade_2_0,train,Facial action coding system,10,Yes,Yes,42
+persuade_2_0,train,Facial action coding system,10,Missing,No,12
+persuade_2_0,train,Facial action coding system,10,Missing,Yes,<11
+persuade_2_0,train,Grades for extracurricular activities,8,No,No,723
+persuade_2_0,train,Grades for extracurricular activities,8,No,Yes,55
+persuade_2_0,train,Grades for extracurricular activities,8,Yes,No,29
+persuade_2_0,train,Grades for extracurricular activities,8,Yes,Yes,<11
+persuade_2_0,train,Mandatory extracurricular activities,8,No,No,668
+persuade_2_0,train,Mandatory extracurricular activities,8,No,Yes,111
+persuade_2_0,train,Mandatory extracurricular activities,8,Yes,No,39
+persuade_2_0,train,Mandatory extracurricular activities,8,Yes,Yes,21
+persuade_2_0,train,Phones and driving,Missing,Missing,Missing,701
+persuade_2_0,train,Seeking multiple opinions,8,No,No,1315
+persuade_2_0,train,Seeking multiple opinions,8,No,Yes,163
+persuade_2_0,train,Seeking multiple opinions,8,Yes,No,58
+persuade_2_0,train,Seeking multiple opinions,8,Yes,Yes,<11
+persuade_2_0,train,Summer projects,9,No,No,<11
+persuade_2_0,train,Summer projects,9,No,Yes,<11
+persuade_2_0,train,Summer projects,10,No,No,106
+persuade_2_0,train,Summer projects,10,No,Yes,<11
+persuade_2_0,train,Summer projects,10,Yes,No,<11
+persuade_2_0,train,Summer projects,11,No,No,679
+persuade_2_0,train,Summer projects,11,No,Yes,53
+persuade_2_0,train,Summer projects,11,Yes,No,22
+persuade_2_0,train,Summer projects,11,Yes,Yes,<11
+persuade_2_0,train,Summer projects,12,No,No,<11
+persuade_2_0,train,The Face on Mars,8,No,No,732
+persuade_2_0,train,The Face on Mars,8,No,Yes,30
+persuade_2_0,train,The Face on Mars,8,Yes,No,50
+persuade_2_0,train,The Face on Mars,8,Yes,Yes,<11
+persuade_2_0,train,The Face on Mars,8,Missing,No,<11
