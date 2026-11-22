@@ -9,13 +9,24 @@ description = "Statistical audits and governance deliverables for AI systems in 
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Gauri Phatak" }]
-dependencies = []
+dependencies = [
+    "gdown>=5.2",
+    "pyyaml>=6.0",
+]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
     "ruff>=0.6",
     "pre-commit>=3.7",
+]
+
+[dependency-groups]
+# Exploration only. Install with `uv pip install --group notebooks` (make setup does this).
+notebooks = [
+    "ipykernel>=6.29",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
 ]
 
 [tool.hatch.build.targets.wheel]

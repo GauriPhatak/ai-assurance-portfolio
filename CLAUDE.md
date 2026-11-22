@@ -51,12 +51,14 @@ When unsure which category something falls into, ask.
 ├── src/
 │   ├── aiassure/                 shared statistics package (owner-written)
 │   └── detector_audit/           project 1 code: harness, detectors, generation
+│       └── corpora/              data download, checksums, essay counts
 ├── tests/
 ├── notebooks/                    exploration only, outputs stripped
 └── projects/
     └── 01-ai-detector-audit/
         ├── README.md             question, data, methods, findings
         ├── configs/              YAML experiment configs
+        ├── data_cards/           one card per corpus: source, license, fields, known issues
         ├── results/              small derived tables and figures (committed)
         ├── governance/           policy memo, classification note, tool fact sheets
         └── app/                  Streamlit app
@@ -87,6 +89,9 @@ Raw data, model weights and cached model outputs live under `data/` and `.cache/
 
 - The corpora contain real student writing. Never commit essay text, never print full essays in logs or results, and never send corpus text to an external API. Use open-weight models run locally or on a GPU host.
 - Confirm each dataset's license and terms of use before downloading, and record them in the project README.
+- In notebooks, work with counts, scores and lengths only, and never display essay text.
+- Never open, display or analyze the text of the 188 raw ELLIPSE essays flagged as containing identifying information (`Identifying_Info_1` or `Identifying_Info_2` equal to 1 in the raw rater-scores file).
+- Key PERSUADE essays on `essay_id_comp`, because `essay_id` is corrupted (1,108 values in scientific notation, two of them colliding).
 
 ## Writing conventions (all docs, READMEs and governance deliverables)
 
@@ -160,4 +165,5 @@ Starting points for rechecking:
 ## Status
 
 - Done: GitHub repo created.
-- Next: M0, repo skeleton.
+- Done: M0, repo skeleton (uv environment, packaging, CI, pre-commit). Merged to main.
+- Next: M1, data download scripts, data cards, and a sampling plan with power analysis.

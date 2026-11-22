@@ -1,0 +1,42 @@
+{
+  "manifest": "projects/01-ai-detector-audit/configs/data_sources.yaml",
+  "corpora": {
+    "persuade_2_0": {
+      "title": "PERSUADE 2.0",
+      "license": "CC BY 4.0",
+      "source_url": "https://github.com/scrosseye/persuade_corpus_2.0",
+      "source_commit": "5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf",
+      "files": [
+        {
+          "filename": "persuade_corpus_2.0_train.csv",
+          "split": "train",
+          "sha256": "f61319edd8bf16a982711ea0399fad59c05afaec05cdf0767f16a2c05c467e23"
+        },
+        {
+          "filename": "persuade_corpus_2.0_test.csv",
+          "split": "test",
+          "sha256": "8b4cbbda471b313e5d11da10d4fc2659defa1a8f710639e98d011e1c7141d3a6"
+        }
+      ]
+    },
+    "ellipse": {
+      "title": "ELLIPSE (final corpus)",
+      "license": "CC BY 4.0",
+      "source_url": "https://github.com/scrosseye/ELLIPSE-Corpus",
+      "source_commit": "710963bbf1acf23a28e40643d9f937d06f047dd4",
+      "files": [
+        {
+          "filename": "ELLIPSE_Final_github_train.csv",
+          "split": "train",
+          "sha256": "782344e99668a3ff508d7410c0eb6e36da70f3b28f81c96e367f1ca04924b06c"
+        },
+        {
+          "filename": "ELLIPSE_Final_github_test.csv",
+          "split": "test",
+          "sha256": "7e990c6392a9df9554d15bdd22f0b568d19095cd6676ad39cb1eaa69c977ed7a"
+        }
+      ]
+    }
+  },
+  "min_cell_count": 11
+}

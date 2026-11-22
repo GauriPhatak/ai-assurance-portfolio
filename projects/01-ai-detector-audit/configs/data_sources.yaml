@@ -1,0 +1,121 @@
+# Data sources for project 1 (AI writing detector audit).
+#
+# Licenses and terms checked 2026-11-20. Details and citations are in ../data_cards/.
+# sha256 values were recorded on the first download (2026-11-20). For files hosted on
+# GitHub, that first download was also checked against the git blob SHA-1 that GitHub
+# publishes for the pinned commit (recorded below as git_blob_sha1).
+#
+# Zip passwords are NOT stored in the repo. They are published in each source README
+# (password_source) and read at run time from the environment variable named in
+# password_env, or from the untracked file given by password_file (KEY=value lines).
+# See .env.example at the repo root.
+
+data_root: data/raw
+password_file: .env
+
+corpora:
+  persuade_2_0:
+    title: PERSUADE 2.0
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    source_url: https://github.com/scrosseye/persuade_corpus_2.0
+    source_commit: 5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf
+    folder: persuade_2_0
+    in_main_analysis: true
+    files:
+      - filename: persuade_corpus_2.0_train.csv
+        split: train
+        host: gdrive
+        gdrive_id: 13phHyDzIsb0MHyJr6q-B-qIa9P2tM135
+        size_bytes: 616894963
+        sha256: f61319edd8bf16a982711ea0399fad59c05afaec05cdf0767f16a2c05c467e23
+      - filename: persuade_corpus_2.0_test.zip
+        split: test
+        host: gdrive
+        gdrive_id: 1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1
+        size_bytes: 14060214
+        sha256: 51c907f90b1303d610e8fcd8c0cbf3656ec88116bc34b60b93794affa77facb2
+        extract:
+          member: persuade_corpus_2.0_test.csv
+          size_bytes: 382098410
+          sha256: 8b4cbbda471b313e5d11da10d4fc2659defa1a8f710639e98d011e1c7141d3a6
+          password_env: PERSUADE_TEST_ZIP_PASSWORD
+          password_source: https://github.com/scrosseye/persuade_corpus_2.0#readme
+    # Rows are discourse elements; counts are by unique essay. The essay key is
+    # essay_id_comp, not essay_id: 1,108 essay_id values were mangled into scientific
+    # notation (for example 5.04604E+12) and two of them collide. essay_id_comp is
+    # unique (25,996 essays) and never conflicts. See ../data_cards/persuade_2_0.md.
+    counts:
+      essay_id: essay_id_comp
+      columns:
+        prompt: prompt_name
+        grade: grade_level
+        ell_status: ell_status
+        disability_status: student_disability_status
+      value_maps:
+        ell_status: {"Yes": "Yes", "No": "No"}
+        disability_status:
+          "Identified as having disability": "Yes"
+          "Not identified as having disability": "No"
+
+  ellipse:
+    title: ELLIPSE (final corpus)
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    source_url: https://github.com/scrosseye/ELLIPSE-Corpus
+    source_commit: 710963bbf1acf23a28e40643d9f937d06f047dd4
+    folder: ellipse
+    in_main_analysis: true
+    files:
+      - filename: ELLIPSE_Final_github_train.csv
+        split: train
+        host: github
+        size_bytes: 9861486
+        git_blob_sha1: cb0ceba6c68cfd28edc945204e02a93d5559d2fd
+        sha256: 782344e99668a3ff508d7410c0eb6e36da70f3b28f81c96e367f1ca04924b06c
+      - filename: ELLIPSE_Final_github_test.zip
+        split: test
+        host: github
+        size_bytes: 1900327
+        git_blob_sha1: 693f2ba2c2af62f3f3a24825eb12a2a8f55ea450
+        sha256: 9ecddfcda83f6a99c8a24dda47fb1c30673fedeaf578a0fadac6645fd151a2f8
+        extract:
+          member: ELLIPSE_Final_github_test.csv
+          size_bytes: 6383207
+          sha256: 7e990c6392a9df9554d15bdd22f0b568d19095cd6676ad39cb1eaa69c977ed7a
+          password_env: ELLIPSE_TEST_ZIP_PASSWORD
+          password_source: https://github.com/scrosseye/ELLIPSE-Corpus#readme
+    # One row per essay. Every ELLIPSE writer is an English learner, and the corpus
+    # has no disability field, so those two are constants rather than columns.
+    counts:
+      essay_id: text_id_kaggle
+      columns:
+        prompt: prompt
+        grade: grade
+      constants:
+        ell_status: "Yes"
+        disability_status: Not recorded
+
+  ellipse_raw_rater_scores:
+    title: ELLIPSE raw rater scores (all ~9,000 rated essays)
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    source_url: https://github.com/scrosseye/ELLIPSE-Corpus
+    source_commit: 710963bbf1acf23a28e40643d9f937d06f047dd4
+    folder: ellipse_raw_rater_scores
+    # Excluded from the main analysis. Kept to study why essays were dropped from the
+    # final corpus. Never merge with the final ELLIPSE corpus.
+    in_main_analysis: false
+    files:
+      - filename: ellipsis_raw_rater_scores_anon_all_essay.zip
+        split: all
+        host: github
+        size_bytes: 6227206
+        git_blob_sha1: 2d2809f711a16e5f07e1466f161ce451276aef3d
+        sha256: f9c3cede2d54144225e0651af6415137f7da07f2d2955e8f8587896c293d5e85
+        extract:
+          member: ellipsis_raw_rater_scores_anon_all_essay.csv
+          size_bytes: 21768627
+          sha256: 6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b
+          password_env: ELLIPSE_RAW_ZIP_PASSWORD
+          password_source: https://github.com/scrosseye/ELLIPSE-Corpus#readme
